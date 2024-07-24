@@ -7,7 +7,9 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-
+fixtures = ["Custom Field"]
+app_include_js = "/assets/barcode/js/received_barcode.js"
+doctype_js = {"doctype" : "public/js/doctype.js"}
 # include js, css files in header of desk.html
 # app_include_css = "/assets/barcode/css/barcode.css"
 # app_include_js = "/assets/barcode/js/barcode.js"
